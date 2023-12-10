@@ -1,0 +1,21 @@
+h2 {
+    text-align:center;
+    border: 5px black;
+    background-color: black;
+    color: white;
+   }
+
+.navbar {
+    display: grid;
+}
+
+h3, p{
+    text-align: center;
+    padding: 10px;
+    
+}
+ h3 {
+    border: 3px black;
+    background-color: black;
+    color: white;
+ }
