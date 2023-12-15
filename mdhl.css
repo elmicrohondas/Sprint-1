@@ -115,6 +115,7 @@ th, td{
 }
 table{
     border-collapse: collapse;
+    background-color: yellow;
 }
 form{
     font-size: 60px;
