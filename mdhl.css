@@ -1,52 +1,67 @@
 
 /* Header style */
 header {
-    background-image: url(./imagenes/design1_image1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: inline-block;
-    height: 80vh;
-    width: 100vw;
-    position: relative;
-    background-position-y: -354px;
+        background-image: url(./imagenes/design1_image1.jpg);
+        background-position: 0px -223px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: inline-block;
+        height: 72vh;
+        width: 100vw;
+        position: relative;
 }
 header * {
     display: inline-block;
     vertical-align: middle;
 } 
 header h1{
-    font-size: 100px;  
+    font-size: 100px;
+    width: 100%;
+    background-color: #ffffff80;
 }
 
 header img{
-    width: 300px;
-    position: relative;
-    top: 70vh;
-    left: 50vw;
-    z-index: 99;
-    border-radius: 20px;
-    background: white;
+        width: 180px;
+        position: relative;
+        top: 38vh;
+        left: 75vw;
+        z-index: 99;
+        border-radius: 20px;
+        background: white;
 }
 header nav {
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 20vw;
     position: relative;
-    top: 70vh;
+    top: 30vh;
     padding: 50px 0px 0px 50px;
 }
 header a{
-    font-size: 50px;
+    font-size: 20px;
     margin: 20px 0px;
-    font-size: 50px;
     margin: 20px 0px;
-    width: 100%;
+    width: 40%;
+    border: solid 2px greenyellow;
+    padding: 5px 50px;
+    background-color: greenyellow;
+    border-radius: 30px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 14px 14px 25px gray;
 }
+.activate{
+    color:greenyellow;
+    background-color: black;
+}
+
 /* main style */
 main {
     width: 80vw;
     position: relative;
     left: 20vw;
     font-family: 'Courier New', Courier, monospace;
+    top: -5vh;
 }
 body{
     padding: 0px;
@@ -54,6 +69,7 @@ body{
 }
 article {
     margin-top: -4vh;
+    width: 50vw;;
 }
 h2 {
     text-align:center;
@@ -64,17 +80,17 @@ h2 {
     padding: 10px;
     right: 20vw;
     width: 100vw;
-    font-size: 70px;
+    font-size: 50px;
     top: -1vw;
    }
 h3 {
-    font-size: 50px;
+    font-size: 30px;
 }
 h4 {
-    font-size: 40px;
+    font-size: 20px;
 }
 p {
-    font-size: 40px;
+    font-size: 20px;
     color: black;
 }
 dl{
@@ -90,10 +106,61 @@ dd {
     font-size: 40px;
 }
 th, td{
-   font-size: 40px;
+   font-size: 20px;
    margin-right: 5px;
    width: 400px;
    height: 70px;
    text-align: center;
+   border: 2px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+form{
+    font-size: 60px;
 }
 
+
+input[type="radio"] {
+    width: 50px;
+}
+input[type="date"] {
+   width: 500px;
+   height: 10px; 
+}
+
+input{
+    margin-top: 24px;
+    padding: 20px;
+    width: 50vw;
+    font-size: 50px;
+    flex-direction: column;
+}
+input[type="text"] {
+    font-size: 23px;
+    border-width: 0 2px 2px 0px;
+}
+label{
+    margin: 20px;
+    font-size: 20px;
+}
+fieldset{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    width: 52vw;
+    border: 5px solid blue;
+    margin-bottom: 30px ;
+}
+legend{
+    font-size: 40px;
+    background: black;
+    color: wheat;
+}
+
+form{
+  
+    font-size: 30px;
+
+}
